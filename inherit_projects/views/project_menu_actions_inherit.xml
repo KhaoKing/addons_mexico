@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="project.open_view_project_all" model="ir.actions.act_window">
+        <field name="name">Sites</field>
+        <field name="path">sites</field>
+        <field name="view_id" ref="project.view_project"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No sites found. Let's create one!
+            </p>
+            <p>
+                Create sites to organize your milestones. Define a different workflow for each sites.
+            </p>
+        </field>
+    </record>
+    <record id="project.action_view_my_task" model="ir.actions.act_window">
+        <field name="name">My Milestones</field>
+        <field name="path">my-milestones</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No milestones found. Let's create one!
+            </p>
+            <p>
+                Organize your milestones by dispatching them across the pipeline.<br/>
+                Collaborate efficiently by chatting in real-time or via email.
+            </p>
+        </field>
+    </record>
+    <record id="project.action_view_all_task" model="ir.actions.act_window">
+        <field name="name">All Milestones</field>
+        <field name="path">all-milestones</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No milestones found. Let's create one!
+            </p>
+            <p>
+                Organize your milestones by dispatching them across the pipeline.<br/>
+                Collaborate efficiently by chatting in real-time or via email.
+            </p>
+        </field>
+    </record>
+    <record id="project.open_view_project_all_config" model="ir.actions.act_window">
+        <field name="name">Sites</field>
+        <field name="path">sites-confiiguration</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No Sites found. Let's create one!
+            </p>
+            <p>
+                Create sites to organize your milestone and define a different workflow for each project.
+            </p>
+        </field>
+    </record>
+    <record id="project.open_task_type_form" model="ir.actions.act_window">
+        <field name="name">Milestones Stages</field>
+        <field name="path">milestone-confiiguration</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No milestones found. Let's create one!
+            </p>
+            <p>
+                Define the steps your milestones move through from creation to completion.
+            </p>
+        </field>
+    </record>
+</odoo>

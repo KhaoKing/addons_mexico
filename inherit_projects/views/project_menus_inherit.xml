@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- Main Menu -->
+    <record id="project.menu_main_pm" model="ir.ui.menu">
+        <field name="name">Sites</field>
+    </record>
+
+    <!-- Header Menu -->
+    <record id="project.menu_projects" model="ir.ui.menu">
+        <field name="name">Sites</field>
+    </record>
+    <record id="project.menu_project_management" model="ir.ui.menu">
+        <field name="name">Milestones</field>
+    </record>
+        <!-- Son's Milestone -->
+        <record id="project.menu_project_management_my_tasks" model="ir.ui.menu">
+            <field name="name">My Milestones</field>
+        </record>
+        <record id="project.menu_project_management_all_tasks" model="ir.ui.menu">
+            <field name="name">All Milestones</field>
+        </record>
+    <record id="project.menu_project_report_task_analysis" model="ir.ui.menu">
+        <field name="name">Milestones Analysis</field>
+    </record>
+    <!-- Son's Configuration -->
+    <record id="project.menu_project_config_project" model="ir.ui.menu">
+        <field name="name">Milestones Stages</field>
+    </record>
+    <record id="project.menu_projects_config" model="ir.ui.menu">
+        <field name="name">Sites</field>
+    </record>
+</odoo>
